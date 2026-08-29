@@ -1,17 +1,17 @@
 ---
-title: Welcome
+title: RAS 304
 tags:
 - tag1
 - tag2
 ---
 <center>
-<font size= "6">(Your Name) Datasheet</font><br>
+<font size= "12">(William Layja) Datasheet</font><br>
 as part of<br>
-<font size= "8"> Project Name</font><br>
+<font size= "11"> Setting up Github & Datasheet</font><br>
 for<br>
-<font size= "5"> Team ### </font><br>
+<font size= "4"> Team 105 </font><br>
 
-**Submission: month, DD, YYYY**
+**Submission: August, 8, 2026**
 </center>
 
 ## Introduction
