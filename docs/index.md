@@ -5,13 +5,13 @@ tags:
 - tag2
 ---
 <center>
-<font size= "6">(William Layhja) Datasheet</font><br>
+<font size= "12">(William Layja) Datasheet</font><br>
 as part of<br>
-<font size= "8"> Setting up Github &Datasheet</font><br>
+<font size= "11"> Setting up Github & Datasheet</font><br>
 for<br>
-<font size= "5"> Team 105 </font><br>
+<font size= "4"> Team 105 </font><br>
 
-**Submission: month, DD, YYYY**
+**Submission: August, 28, 2026**
 </center>
 
 ## Introduction
