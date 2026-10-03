@@ -67,3 +67,17 @@ extra:
     - icon: fontawesome/regular/file-code
       link: /2025_fall
       name: 2023 Site    
+
+nav:
+  - Home: index.md
+  - Block Diagram: 01-Block-Diagram/Block-Diagram.md
+  - Component Selection: 02-Component-Selection/Component-Selection.md
+  - Bill of Materials: 03-BOM/BOM.md
+  - Schematic: 04-Schematic/schematic.md
+  - Power Budget: 05-Power-Budget/Power-Budget.md
+  - Appendix:
+      - Overview: Appendix/index.md
+      - Another Subfile: Appendix/another-subfile.md
+      - Markdown Examples: Appendix/basic-markdown-examples.md
+      - Charts: Appendix/charts.md
+      - ESP32 Table: Appendix/esp-32-table.md
