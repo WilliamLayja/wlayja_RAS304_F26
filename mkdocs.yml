@@ -67,3 +67,7 @@ extra:
     - icon: fontawesome/regular/file-code
       link: /2025_fall
       name: 2023 Site    
+
+nav:
+  - Home: index.md
+  - Block Diagram: 01-Block-Diagram/Block-Diagram.md
