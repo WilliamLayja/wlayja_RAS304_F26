@@ -31,3 +31,7 @@ for<br>
 To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/03-BOM/BOM/) section of the datasheet.
 
 For all the sections
+
+## Individual Subsystem Diagrams
+
+[William Layja — Laser and Motor Block Diagram](Block-Diagram.md)
