@@ -34,4 +34,4 @@ For all the sections
 
 ## Individual Subsystem Diagrams
 
-[William Layja — Laser and Motor Block Diagram](Block-Diagram.md)
+[William Layja — Laser and Motor Block Diagram](01-Block-Diagram/Block-Diagram.md)
