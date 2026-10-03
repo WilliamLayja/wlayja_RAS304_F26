@@ -31,14 +31,14 @@ using 3.3 V UART signals.
 
 ## Block Diagram
 
-![Laser and motor subsystem block diagram](image/william-laser-motor.png)
+![Laser and motor subsystem block diagram](william-laser-motor.png)
 
 **Figure 1:** Laser / scanning subsystem, power connections,
 microcontroller peripherals, and signal interfaces.
 
 ## Pin Assignments and Component Details
 
-![Pin assignments and component details](image/william-laser-motor-details.png)
+![Pin assignments and component details](william-laser-motor-details.png)
 
 **Figure 2:** Component selections, connector pinouts,
 supporting circuitry, and operating plan.
