@@ -10,7 +10,7 @@ The subsystem uses a PIC18F57Q43 Curiosity Nano microcontroller, a Pololu 100:1 
 The power budget identifies the voltage and current requirements of these components, considers the necessary voltage regulation, and evaluates the power needed to operate the scanning mechanism.
 
 A 25% safety margin is included when determining the required current capacity of the power supply.
-
+mkmklms
 ## Power Budget Tables
 
 The following images show the preliminary power budget for the Motor and Rotation Control subsystem.
