@@ -669,33 +669,14 @@
 
   <h1>Component Selection</h1>
 
-<p><strong>CPR Micro Metal Motoar Encoders</strong></p>
-<table>
-<thead>
-<tr>
-<th><strong>Solution</strong></th>
-<th><strong>Pros</strong></th>
-<th><strong>Cons</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><br><strong>Option 1.</strong><br>* 100:1 Micro Metal Gearmotor LP 6V with 12 CPR Encoder<br>$29.95/each<br>*<a href="https://www.pololu.com/product/5112">link to product</a></td>
-<td>* Lower no-load current reduces battery demand; smallest stall-current requirement; integrated encoder supports closed-loop position control; compact and lightweight.</td>
-<td>* Lowest available torque; slower scanning; may struggle if the sensor mounting assembly is heavy or has substantial friction.<br></td>
-</tr>
-<tr>
-<td><br><strong>Option 2.</strong><br>* 100:1 Micro Metal Gearmotor MP 6V with 12 CPR Encoder <br>* $29.95/each <br>* <a href="https://www.pololu.com/product/5138">Link to product</a></td>
-<td>* Better torque and speed than LP; integrated encoder; moderate current requirement; same compact dimensions; good candidate for balancing performance and power. <br></td>
-<td>* Higher current than LP; requires closed-loop position control; may still need gearing or speed reduction for smooth scanning speed.</td>
-</tr>
-<tr>
-<td><br><strong>Option 3.</strong><br>* 100:1 Micro Metal Gearmotor HP 6V with 12 CPR Encoder <br>* $29.95/each <br>* <a href="https://www.pololu.com/product/5164?utm_source=chatgpt.com">Link to product</a></td>
-<td>* Highest available torque; fastest motion; integrated encoder; better suited to mechanically demanding loads<br></td>
-<td>*Highest current consumption; more demanding driver and power-supply requirements; faster motion may require more careful acceleration and braking control.</td>
-</tr>
-</tbody>
-</table>
+<p><strong>CPR Micro Metal Motor Encoders</strong></p>
+<p></p>
+<p>| <strong>Solution</strong> | <strong>Pros</strong> | <strong>Cons</strong> |
+|---|---|---|                                                                                              | <strong>Pros</strong>                                                                                                                                    | <strong>Cons</strong>                                                                                            |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| <br><strong>Option 1.</strong><br>* 100:1 Micro Metal Gearmotor LP 6V with 12 CPR Encoder<br>$29.95/each<br>*<a href="https://www.pololu.com/product/5112">link to product</a>                 | * Lower no-load current reduces battery demand; smallest stall-current requirement; integrated encoder supports closed-loop position control; compact and lightweight.                                               | * Lowest available torque; slower scanning; may struggle if the sensor mounting assembly is heavy or has substantial friction.<br> |
+| <br><strong>Option 2.</strong><br>* 100:1 Micro Metal Gearmotor MP 6V with 12 CPR Encoder <br>* $29.95/each <br>* <a href="https://www.pololu.com/product/5138">Link to product</a> | * Better torque and speed than LP; integrated encoder; moderate current requirement; same compact dimensions; good candidate for balancing performance and power. <br> | * Higher current than LP; requires closed-loop position control; may still need gearing or speed reduction for smooth scanning speed.                                                         |
+| <br><strong>Option 3.</strong><br>* 100:1 Micro Metal Gearmotor HP 6V with 12 CPR Encoder <br>* $29.95/each <br>* <a href="https://www.pololu.com/product/5164?utm_source=chatgpt.com">Link to product</a> | * Highest available torque; fastest motion; integrated encoder; better suited to mechanically demanding loads<br> | *Highest current consumption; more demanding driver and power-supply requirements; faster motion may require more careful acceleration and braking control.                                                         |</p>
 <p><strong>Choice:</strong> Option 2: Pololu 100:1 Micro Metal Gearmotor MP 6V with 12 CPR Encoder (Part #5138)</p>
 <p><strong>Rationale:</strong> The Pololu 100:1 Medium-Power Micro Metal Gearmotor is the preliminary selection for the scanning subsystem because it provides a balance between rotational speed, available torque, electrical current requirements, and physical size. Its 100.37:1 gearbox provides mechanical reduction, while its integrated quadrature encoder allows the PIC18F57Q43 microcontroller to monitor motor rotation and implement position feedback.</p>
 <p>Compared to the low-power alternative, the medium-power motor offers increased torque and speed, which may improve its ability to move the LiDAR scanning assembly. Compared to the high-power alternative, it has a lower stall current, reducing the electrical demands on the motor driver and power system.</p>
