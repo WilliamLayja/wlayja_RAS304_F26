@@ -1,14 +1,11 @@
 ---
----
 title: Component Selection Example
 ---
 
-**CPR Micro Metal Motor Encoders**
 
-![Motor Test](image1.jpg)
+**CPR Micro Metal Motoar Encoders**
 
-| **Solution** | **Pros** | **Cons** |
-|---|---|---|                                                                                              | **Pros**                                                                                                                                    | **Cons**                                                                                            |
+| **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
 | ![](image1.jpg)<br>**Option 1.**<br>\* 100:1 Micro Metal Gearmotor LP 6V with 12 CPR Encoder<br>$29.95/each<br>\*[link to product](https://www.pololu.com/product/5112)                 | \* Lower no-load current reduces battery demand; smallest stall-current requirement; integrated encoder supports closed-loop position control; compact and lightweight.                                               | \* Lowest available torque; slower scanning; may struggle if the sensor mounting assembly is heavy or has substantial friction.<br> |
 | ![](image2.jpg)<br>**Option 2.**<br>\* 100:1 Micro Metal Gearmotor MP 6V with 12 CPR Encoder <br>\* $29.95/each <br>\* [Link to product](https://www.pololu.com/product/5138) | \* Better torque and speed than LP; integrated encoder; moderate current requirement; same compact dimensions; good candidate for balancing performance and power. <br> | * Higher current than LP; requires closed-loop position control; may still need gearing or speed reduction for smooth scanning speed.                                                         |
