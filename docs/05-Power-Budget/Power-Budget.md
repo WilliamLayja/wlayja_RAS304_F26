@@ -17,11 +17,12 @@ The following images show the preliminary power budget for the Motor and Rotatio
 
 > Capture your power budge as a image to display. Take time to get clean breaks and a well organized layout.
 
-![budget1](budgetPg1.png){style width:"350" height:"300;"}
+![Power Budget Page 1](budgetPg1.png)
 
-![budget2](budgetPg2.png){style width:"350" height:"300;"}
+![Power Budget Page 2](budgetPg2.png)
 
-![budget3](budgetPg3.png){style width:"350" height:"300;"}
+![Power Budget Page 3](budgetPg3.png)
+
 
 ## Conclusions
 
