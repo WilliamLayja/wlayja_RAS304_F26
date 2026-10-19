@@ -17,11 +17,11 @@ The following images show the preliminary power budget for the Motor and Rotatio
 
 > Capture your power budge as a image to display. Take time to get clean breaks and a well organized layout.
 
-![Power Budget Page 1](https://williamlayja.github.io/wlayja_RAS304_F26/05-Power-Budget/budgetPg1.png)
+<img src="https://williamlayja.github.io/wlayja_RAS304_F26/05-Power-Budget/budgetPg1.png" alt="Power Budget Page 1">
 
-![Power Budget Page 2](https://williamlayja.github.io/wlayja_RAS304_F26/05-Power-Budget/budgetPg2.png)
+<img src="https://williamlayja.github.io/wlayja_RAS304_F26/05-Power-Budget/budgetPg2.png" alt="Power Budget Page 2">
 
-![Power Budget Page 3](https://williamlayja.github.io/wlayja_RAS304_F26/05-Power-Budget/budgetPg3.png)
+<img src="https://williamlayja.github.io/wlayja_RAS304_F26/05-Power-Budget/budgetPg3.png" alt="Power Budget Page 3">
 
 ## Conclusions
 
