@@ -15,7 +15,6 @@ mkmklms
 
 The following images show the preliminary power budget for the Motor and Rotation Control subsystem.
 
-> Capture your power budge as a image to display. Take time to get clean breaks and a well organized layout.
 
 <img src="https://williamlayja.github.io/wlayja_RAS304_F26/05-Power-Budget/budgetPg1.png" alt="Power Budget Page 1">
 
