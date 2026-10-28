@@ -17,4 +17,4 @@ title: Component Selection Example
 
 Compared to smaller slip-ring alternatives, the Adafruit model offers a larger mounting flange, making it easier to secure within the scanning assembly. Its 300 RPM maximum rotational speed exceeds the motor's expected operating speed, while its 2A-per-channel rating provides sufficient current capacity for the sensor's electrical connections.
 
-The slip ring also provides two additional channels for potential future expansion. Its published specifications and mounting dimensions make it a promising candidate for integration into the handheld LiDAR device. Final selection will depend on mechanical mounting compatibility, available enclosure space, and testing the reliability of I²C communication during continuous rotation.
+The slip ring also provides two additional channels for potential future expansion. Its published specifications and mounting dimensions make it a promising candidate for integration into the handheld LiDAR device. Final selection will depend on mechanical mounting compatibility, available enclosure space, and testing the reliability of I2C communication during continuous rotation.
