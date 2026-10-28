@@ -4,13 +4,15 @@ title: Schematic
 
 ## Overview
 
-This schematic is designed to control the rotational movement of a 360-degree LiDAR scanning system. The subsystem uses a 25SG-370CA-78-EN DC gear motor with an integrated encoder to rotate the LiDAR sensor continuously while tracking its angular position.
+## Overview
 
-The PIC18F57Q43 Curiosity Nano serves as the main controller, sending signals to a FAN8100N H-bridge motor driver to control the motor's movement. The encoder provides feedback to the microcontroller, allowing the system to monitor rotational speed and estimate angular position.
+This schematic is designed to support the motor control and LiDAR scanning subsystem of our team's 360-degree obstacle detection system. The design utilizes a **PIC18F57Q43 Curiosity Nano** microcontroller and a **FAN8100N H-bridge** to control a DC gear motor, while its integrated quadrature encoder provides feedback for monitoring rotational speed and angular position.
 
-The schematic also includes a 5V linear voltage regulator (LM7805), power filtering capacitors, a fuse, debugging components, and connectors for communication with other team subsystems. The motor driver requires a separate, compatible motor supply.
+The subsystem also incorporates a **Holybro VL53L1X Time-of-Flight sensor**, which communicates with the microcontroller through I2C. An **Adafruit 6-wire slip ring** is planned to allow the sensor to rotate continuously without twisting its electrical connections.
 
-This subsystem will support the team's overall LiDAR system by providing continuous rotational movement and encoder feedback for coordinating distance measurements.
+Additional circuitry includes voltage regulation, power filtering capacitors, debugging components, and UART connections for communication with other team subsystems. Together, these components provide the electrical design needed to support continuous LiDAR scanning and obstacle detection.
+
+The schematic represents the proposed subsystem design, with final power requirements and communication reliability to be verified during hardware testing.
 
 
 ![schematic](Subsystem_Schematic_Design.png){style width:"350" height:"300;"}
