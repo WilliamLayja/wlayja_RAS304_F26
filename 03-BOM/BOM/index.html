@@ -536,10 +536,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#bill-of-materials-example-as-table" class="md-nav__link">
+  <a href="#bill-of-materials" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Bill of Materials Example (as Table)
+        Bill of Materials
       
     </span>
   </a>
@@ -547,10 +547,43 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#bill-of-materials-example-as-image" class="md-nav__link">
+  <a href="#components-requiring-purchase" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Bill of Materials Example (as Image)
+        Components Requiring Purchase
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#purchasing-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Purchasing Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#component-datasheets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Component Datasheets
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Final Notes
       
     </span>
   </a>
@@ -720,10 +753,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#bill-of-materials-example-as-table" class="md-nav__link">
+  <a href="#bill-of-materials" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Bill of Materials Example (as Table)
+        Bill of Materials
       
     </span>
   </a>
@@ -731,10 +764,43 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#bill-of-materials-example-as-image" class="md-nav__link">
+  <a href="#components-requiring-purchase" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Bill of Materials Example (as Image)
+        Components Requiring Purchase
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#purchasing-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Purchasing Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#component-datasheets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Component Datasheets
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Final Notes
       
     </span>
   </a>
@@ -777,56 +843,262 @@
   <h1>Bill of Materials</h1>
 
 <h2 id="overview">Overview</h2>
-<p>written context</p>
-<h2 id="bill-of-materials-example-as-table">Bill of Materials Example (as Table)</h2>
-<p><em>Table ##: An example of one approach to adding your BOM table to this section.</em></p>
+<p>This Bill of Materials (BOM) documents the electrical, electronic, and mechanical components required for the LiDAR motor and rotation-control subsystem. The system uses a motor, encoder, H-bridge motor driver, and Curiosity Nano microcontroller to control rotation and support LiDAR scanning.</p>
+<p>Most electrical components are already available through TECH 162 or have been provided for the project. Additional components, including a slip ring, VL53L1X LiDAR sensor, and PLA filament, are included in the purchasing list.</p>
+<h2 id="bill-of-materials">Bill of Materials</h2>
+<p>The following table lists the components from the KiCad schematic. All listed components are currently available through TECH 162 or have already been provided, resulting in no additional purchasing cost.</p>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;"><strong>Part Name/Description</strong></th>
-<th style="text-align: left;"><strong>Qty</strong></th>
-<th style="text-align: left;"><strong>Unit Cost</strong></th>
-<th style="text-align: left;"><strong>Total Cost</strong></th>
-<th style="text-align: left;"><strong>Manufacture</strong></th>
-<th style="text-align: left;"><strong>Manufacturer #</strong></th>
-<th style="text-align: left;"><strong>Vendor Link</strong></th>
-<th style="text-align: left;"><strong>Datasheet Link</strong></th>
-<th style="text-align: left;"><strong>Schematic Reference Designators</strong></th>
+<th>Reference</th>
+<th>Component / Description</th>
+<th style="text-align: right;">Quantity</th>
+<th>Source</th>
+<th style="text-align: right;">Additional Cost</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;">8-bit SIPO/SISO Shift Register, SOIC-16 package</td>
-<td style="text-align: left;">1</td>
-<td style="text-align: left;">$0.49</td>
-<td style="text-align: left;">$ 0.49</td>
-<td style="text-align: left;">NXP</td>
-<td style="text-align: left;">74HC595D,112</td>
-<td style="text-align: left;"><a href="https://www.digikey.com/en/products/detail/nexperia-usa-inc/74HC595D-112/763550">DigiKey</a></td>
-<td style="text-align: left;"><a href="https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf">datasheet link</a></td>
-<td style="text-align: left;">U1</td>
+<td>C1</td>
+<td>0.33 µF Capacitor</td>
+<td style="text-align: right;">1</td>
+<td>TECH 162</td>
+<td style="text-align: right;">$0.00</td>
 </tr>
 <tr>
-<td style="text-align: left;">0.1 µF Ceramic Capacitor, +/-10%, X7R, 50V, 0805 package</td>
-<td style="text-align: left;">10</td>
-<td style="text-align: left;">0.2750</td>
-<td style="text-align: left;">$2.75</td>
-<td style="text-align: left;">KEMET</td>
-<td style="text-align: left;">C0805F104K5RACTU</td>
-<td style="text-align: left;">PRLTA 109</td>
-<td style="text-align: left;">n/a</td>
-<td style="text-align: left;">C2, C4, C6, C7, C8, C9, C10, C11, C12, C16</td>
+<td>C2, C3, C4, C6, C7</td>
+<td>0.1 µF Capacitor</td>
+<td style="text-align: right;">5</td>
+<td>TECH 162</td>
+<td style="text-align: right;">$0.00</td>
+</tr>
+<tr>
+<td>C5</td>
+<td>47 µF Capacitor</td>
+<td style="text-align: right;">1</td>
+<td>TECH 162</td>
+<td style="text-align: right;">$0.00</td>
+</tr>
+<tr>
+<td>D1</td>
+<td>LED</td>
+<td style="text-align: right;">1</td>
+<td>TECH 162</td>
+<td style="text-align: right;">$0.00</td>
+</tr>
+<tr>
+<td>F1</td>
+<td>Fuse (Rating TBD)</td>
+<td style="text-align: right;">1</td>
+<td>TECH 162</td>
+<td style="text-align: right;">$0.00</td>
+</tr>
+<tr>
+<td>J1</td>
+<td>6-Pin Motor/Encoder Connector</td>
+<td style="text-align: right;">1</td>
+<td>TECH 162</td>
+<td style="text-align: right;">$0.00</td>
+</tr>
+<tr>
+<td>J2</td>
+<td>9–12V Power Input Connector</td>
+<td style="text-align: right;">1</td>
+<td>TECH 162</td>
+<td style="text-align: right;">$0.00</td>
+</tr>
+<tr>
+<td>J3</td>
+<td>Team Communication Connector</td>
+<td style="text-align: right;">1</td>
+<td>TECH 162</td>
+<td style="text-align: right;">$0.00</td>
+</tr>
+<tr>
+<td>J4</td>
+<td>Upstream Connector</td>
+<td style="text-align: right;">1</td>
+<td>TECH 162</td>
+<td style="text-align: right;">$0.00</td>
+</tr>
+<tr>
+<td>J5</td>
+<td>Downstream Connector</td>
+<td style="text-align: right;">1</td>
+<td>TECH 162</td>
+<td style="text-align: right;">$0.00</td>
+</tr>
+<tr>
+<td>J6</td>
+<td>GPIO &amp; GND Connector</td>
+<td style="text-align: right;">1</td>
+<td>TECH 162</td>
+<td style="text-align: right;">$0.00</td>
+</tr>
+<tr>
+<td>J7</td>
+<td>LiDAR Connector</td>
+<td style="text-align: right;">1</td>
+<td>TECH 162</td>
+<td style="text-align: right;">$0.00</td>
+</tr>
+<tr>
+<td>J8</td>
+<td>External 5V Motor Power Connector</td>
+<td style="text-align: right;">1</td>
+<td>TECH 162</td>
+<td style="text-align: right;">$0.00</td>
+</tr>
+<tr>
+<td>JP1, JP2</td>
+<td>2-Pin Jumpers</td>
+<td style="text-align: right;">2</td>
+<td>TECH 162</td>
+<td style="text-align: right;">$0.00</td>
+</tr>
+<tr>
+<td>R1</td>
+<td>1 kΩ Resistor</td>
+<td style="text-align: right;">1</td>
+<td>TECH 162</td>
+<td style="text-align: right;">$0.00</td>
+</tr>
+<tr>
+<td>R2, R3, R4</td>
+<td>10 kΩ Resistor</td>
+<td style="text-align: right;">3</td>
+<td>TECH 162</td>
+<td style="text-align: right;">$0.00</td>
+</tr>
+<tr>
+<td>R5, R6</td>
+<td>4.7 kΩ Resistor (DNP)</td>
+<td style="text-align: right;">2</td>
+<td>TECH 162</td>
+<td style="text-align: right;">$0.00</td>
+</tr>
+<tr>
+<td>SW1</td>
+<td>Push Button Switch</td>
+<td style="text-align: right;">1</td>
+<td>TECH 162</td>
+<td style="text-align: right;">$0.00</td>
+</tr>
+<tr>
+<td>TP1–TP9</td>
+<td>Test Points</td>
+<td style="text-align: right;">9</td>
+<td>TECH 162</td>
+<td style="text-align: right;">$0.00</td>
+</tr>
+<tr>
+<td>U1</td>
+<td>FAN8100N H-Bridge Motor Driver</td>
+<td style="text-align: right;">1</td>
+<td>Already Provided</td>
+<td style="text-align: right;">$0.00</td>
+</tr>
+<tr>
+<td>U2</td>
+<td>LM7805 Voltage Regulator</td>
+<td style="text-align: right;">1</td>
+<td>TECH 162</td>
+<td style="text-align: right;">$0.00</td>
+</tr>
+<tr>
+<td>WL1</td>
+<td>Curiosity Nano Microcontroller</td>
+<td style="text-align: right;">1</td>
+<td>Already Provided</td>
+<td style="text-align: right;">$0.00</td>
 </tr>
 </tbody>
 </table>
-<p>Note: Setting it up as a table is nice because it is completely viewable without scaling issues. <ins>Downside</ins> is that you have to do the math.</p>
+<p><strong>Note:</strong> R5 and R6 are marked DNP (Do Not Populate) and are not intended to be installed on the final PCB. The fuse rating remains to be verified.</p>
+<h2 id="components-requiring-purchase">Components Requiring Purchase</h2>
+<p>The following components are needed for the LiDAR system and mechanical assembly. These items are not included in the provided electrical components.</p>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th style="text-align: right;">Quantity</th>
+<th>Supplier</th>
+<th style="text-align: right;">Unit Cost</th>
+<th style="text-align: right;">Total Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Black Inland 1.75mm PLA Filament (2-Pack)</td>
+<td style="text-align: right;">1</td>
+<td><a href="https://www.microcenter.com/product/693159/inland-175mm-pla-basic-3d-printer-filament-2-pack-%e2%80%93-black">Micro Center</a></td>
+<td style="text-align: right;">$18.99</td>
+<td style="text-align: right;">$18.99</td>
+</tr>
+<tr>
+<td>22mm 6-Wire Slip Ring</td>
+<td style="text-align: right;">1</td>
+<td><a href="https://www.adafruit.com/product/736">Adafruit</a></td>
+<td style="text-align: right;">$14.95</td>
+<td style="text-align: right;">$14.95</td>
+</tr>
+<tr>
+<td>ST VL53L1X LiDAR Sensor</td>
+<td style="text-align: right;">1</td>
+<td><a href="https://holybro.com/products/st-vl53l1x-lidar">Holybro</a></td>
+<td style="text-align: right;">$14.99</td>
+<td style="text-align: right;">$14.99</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td style="text-align: right;"><strong>3</strong></td>
+<td></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"><strong>$48.93</strong></td>
+</tr>
+</tbody>
+</table>
+<p><em>All prices are based on the BOM spreadsheet. Shipping and taxes are not included.</em></p>
+<h2 id="purchasing-summary">Purchasing Summary</h2>
+<p>The majority of electrical components required for this subsystem are already provided through TECH 162, eliminating the need to purchase additional resistors, capacitors, connectors, microcontrollers, or motor-control hardware.</p>
+<p>The remaining purchases consist of the slip ring, LiDAR sensor, and 3D-printing material.</p>
 <ul>
-<li>You could also import your BOM via a screenshot of the spreadsheet created BOM</li>
+<li><strong>Slip Ring:</strong> Allows electrical connections to pass between the stationary and rotating sections of the LiDAR assembly.</li>
+<li><strong>VL53L1X LiDAR Sensor:</strong> Provides time-of-flight distance measurements for object detection.</li>
+<li><strong>PLA Filament:</strong> Used to manufacture custom mounting brackets, enclosures, and mechanical components for the LiDAR assembly.</li>
 </ul>
-<h2 id="bill-of-materials-example-as-image">Bill of Materials Example (as Image)</h2>
-<p><img _2000_="&quot;2000&quot;" alt="" height:_1500_="height:&quot;1500;&quot;" src="../BOM_SS.png" style="style" width:="width:" />
-<strong>Figure 2:</strong> Bill of Materials as a screenshot.</p>
-<p>As you can see, the text can be difficult to read without opening the image.</p>
+<p>The total additional component cost is <strong>$48.93</strong>, excluding shipping and applicable taxes.</p>
+<h2 id="component-datasheets">Component Datasheets</h2>
+<p>The following links provide technical information for major subsystem components.</p>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Technical Documentation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FAN8100N Motor Driver</td>
+<td><a href="https://rocelec.widen.net/view/pdf/1pizbjqffm/FAIRS23777-1.pdf?t.download=true&amp;u=5oefqw">Datasheet</a></td>
+</tr>
+<tr>
+<td>LM7805 Voltage Regulator</td>
+<td><a href="https://www.htckorea.co.kr/Datasheet/Voltage%20Regulator/LM78xx.pdf">Datasheet</a></td>
+</tr>
+<tr>
+<td>6-Wire Slip Ring</td>
+<td><a href="https://cdn-shop.adafruit.com/datasheets/SRC022A-6.pdf">Datasheet</a></td>
+</tr>
+<tr>
+<td>ST VL53L1X LiDAR Sensor</td>
+<td><a href="https://holybro.com/products/st-vl53l1x-lidar">Product Documentation</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="final-notes">Final Notes</h2>
+<p>All components listed in the KiCad schematic have been documented in the Bill of Materials. Existing components are identified as provided materials, while additional components have been assigned suppliers and estimated costs.</p>
+<p>Component footprints, final fuse rating, and part compatibility will be verified before PCB assembly and integration.</p>
 
 
 
