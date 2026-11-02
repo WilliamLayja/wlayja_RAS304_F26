@@ -6,13 +6,8 @@ theme:
   name: material
   custom_dir: custom_theme/
   palette:
-<<<<<<< HEAD
     primary: indigo
-    accent: blue
-=======
-    primary: blue
     accent: blue grey
->>>>>>> 2ede07e60ed8dbcc39911147bd8ede25c1174f7a
   font:
     text: Roboto
   logo: static/logo304.svg
