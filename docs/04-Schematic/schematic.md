@@ -21,4 +21,4 @@ The schematic represents the proposed subsystem design, with final power require
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](Subsystem_Schematic_Design.pdf), and the Zip folder of the project [*here*](Subsystem_Schematic_Design.zip).
+The schematic as a PDF download is available [*here*](Subsystem_Schematic_Design.pdf), and the Zip folder of the project [*here*](Subsystem_PCB_Design.zip).
