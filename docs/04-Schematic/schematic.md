@@ -16,7 +16,7 @@ The schematic represents the proposed subsystem design, with final power require
 
 
 ![schematic](Subsystem_Schematic_Design.png){style width:"350" height:"300;"}
-**Figure 1:** Showing a example schematic.
+**Figure 1:** Picture of Schematic.
 
 
 ## Resouces
