@@ -75,7 +75,8 @@ nav:
   - Component Selection: 02-Component-Selection/Component-Selection.md
   - Bill of Materials: 03-BOM/BOM.md
   - Schematic: 04-Schematic/schematic.md
-  - Power Budget: 05-Power-Budget/Power-Budget.md
+  - PCB: 05-PCB/PCB.md
+  - Power Budget: 06-Power-Budget/Power-Budget.md
   - Appendix:
       - Overview: Appendix/index.md
       - Another Subfile: Appendix/another-subfile.md
